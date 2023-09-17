@@ -19,7 +19,7 @@ app.use('/b18/users', userRoutes);
 app.use('/b18/products', productRoutes);
 app.use('/b18/orders', orderRoutes);
 
-mongoose.connect("mongodb+srv://kylhrmys:admin123@course-booking.bnldhbv.mongodb.net/s49-s53?retryWrites=true&w=majority", {
+mongoose.connect("", {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
